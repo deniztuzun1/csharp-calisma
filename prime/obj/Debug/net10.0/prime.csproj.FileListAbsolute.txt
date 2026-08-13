@@ -1,0 +1,14 @@
+/Users/deniztuzun/csharp-calisma/prime/bin/Debug/net10.0/prime
+/Users/deniztuzun/csharp-calisma/prime/bin/Debug/net10.0/prime.deps.json
+/Users/deniztuzun/csharp-calisma/prime/bin/Debug/net10.0/prime.runtimeconfig.json
+/Users/deniztuzun/csharp-calisma/prime/bin/Debug/net10.0/prime.dll
+/Users/deniztuzun/csharp-calisma/prime/bin/Debug/net10.0/prime.pdb
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/prime.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/prime.AssemblyInfoInputs.cache
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/prime.AssemblyInfo.cs
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/prime.csproj.CoreCompileInputs.cache
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/prime.dll
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/refint/prime.dll
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/prime.pdb
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/prime.genruntimeconfig.cache
+/Users/deniztuzun/csharp-calisma/prime/obj/Debug/net10.0/ref/prime.dll
