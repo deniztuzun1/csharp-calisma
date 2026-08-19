@@ -35,7 +35,7 @@ internal class Program
 
 abstract class Animal
 {
-    public string Name;
+    public string Name { get; set; }
 
     public int Age
     {
@@ -71,7 +71,7 @@ interface ITrainable
 }
 class Dog : Animal, ITrainable
 {
-    public string Breed;
+    public string Breed { get; set; }
     public override void MakeSound()
     {
         Console.WriteLine("Dog says woof woof.");
@@ -83,7 +83,7 @@ class Dog : Animal, ITrainable
 }
 class Cat : Animal, ITrainable
 {
-    public bool CanJump;
+    public bool CanJump { get; set; }
     public override void MakeSound()
     {
         Console.WriteLine("Cat says meow meow.");
@@ -95,7 +95,7 @@ class Cat : Animal, ITrainable
 }
 class Cow : Animal
 {
-    public string Color;
+    public string Color { get; set; }
     public override void MakeSound()
     {
         Console.WriteLine("Cow says moo.");
