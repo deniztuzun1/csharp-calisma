@@ -13,8 +13,8 @@ internal class Program
 
         Cat cat = new Cat();
 
-        cat.Name = "Luna";
-        cat.Age = 2;
+        cat.Name = "Olive";
+        cat.Age = 6;
         cat.Weight = 5;
         cat.CanJump = true;
 
@@ -23,7 +23,7 @@ internal class Program
         cow.Name = "Molly";
         cow.Age = 6;
         cow.Weight = 450;
-        cow.Color = "Brown";
+        cow.Color = "Black";
 
         shelter.AddAnimal(dog);
         shelter.AddAnimal(cat);
@@ -36,8 +36,29 @@ internal class Program
 abstract class Animal
 {
     public string Name;
-    public int Age;
-    public double Weight;
+
+    public int Age
+    {
+        get;
+        set
+        {
+            if (value >= 0)
+            {
+                field = value;
+            }
+        }
+    }
+    public double Weight
+    {
+        get;
+        set
+        {
+            if (value >= 0)
+            {
+                field = value;
+            }
+        }
+    }
     public void Eat()
     {
         Console.WriteLine("This animal can eat.");
